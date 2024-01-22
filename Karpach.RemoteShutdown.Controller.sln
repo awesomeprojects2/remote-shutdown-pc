@@ -3,14 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karpach.RemoteShutdown.Controller", "Karpach.RemoteShutdown.Controller\Karpach.RemoteShutdown.Controller.csproj", "{6916CA57-9E37-48FE-B16C-44965008BEBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Karpach.RemoteShutdown.Controller", "Karpach.RemoteShutdown.Controller\Karpach.RemoteShutdown.Controller.csproj", "{6916CA57-9E37-48FE-B16C-44965008BEBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karpach.RemoteShutdown.Controller.Tests", "Karpach.RemoteShutdown.Controller.Tests\Karpach.RemoteShutdown.Controller.Tests.csproj", "{99F5D844-29BC-4763-A473-642595B3FF16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Karpach.RemoteShutdown.Controller.Tests", "Karpach.RemoteShutdown.Controller.Tests\Karpach.RemoteShutdown.Controller.Tests.csproj", "{99F5D844-29BC-4763-A473-642595B3FF16}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{48FFBBF8-E551-4C5F-8346-3468CBB7E229}"
 	ProjectSection(SolutionItems) = preProject
 		readme.md = readme.md
 	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupRemoteShutdown", "SetupRemoteShutdown\SetupRemoteShutdown.vdproj", "{A3F56F86-DF9E-4D4E-A29F-63686D13366E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,8 @@ Global
 		{99F5D844-29BC-4763-A473-642595B3FF16}.Debug|x64.Build.0 = Debug|x64
 		{99F5D844-29BC-4763-A473-642595B3FF16}.Release|x64.ActiveCfg = Release|x64
 		{99F5D844-29BC-4763-A473-642595B3FF16}.Release|x64.Build.0 = Release|x64
+		{A3F56F86-DF9E-4D4E-A29F-63686D13366E}.Debug|x64.ActiveCfg = Debug
+		{A3F56F86-DF9E-4D4E-A29F-63686D13366E}.Release|x64.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
